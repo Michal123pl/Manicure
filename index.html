@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Manicure Studio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+	<!--Navigation -->
+	<header class='container-flex'>
+		<div class='row'>
+			<div class='col' >
+				<span id='logo'>Michał<strong>Nowotarski</strong></span>
+			</div>
+			<nav class='col'>
+				<ul>
+					<a href="gallery.html" class='a1' ><li>Gallery</li></a>
+					<a href="cennik.html" class='a1'><li>Pricing</li></a>
+					<a href="index.html" class='a1'><li>About</li></a></a>
+					<a href="#" class='a1'><li>Contact</li></a>
+					<li id='menu-icon'>
+						<div class='bar1'></div>
+						<div class='bar2'></div>
+						<div class='bar3'></div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!--Intro photo -->
+	<section class='container-fluid intro-photo'>
+		<div>
+			<table class='intro-photo-table'>
+				<tr><td>today</td></tr>
+				<tr><td>is</td></tr>
+				<tr><td>the best</td></tr>
+				<tr><td>day</td></tr>
+				<tr><td>for</td></tr>
+			</table>
+			<h1 id='intro-photo-word'>Shopping...</h1>
+		</div>
+	</section>
+
+	<!--About-->
+	<section id='about' class='about-background'>
+		<h1 id='about-header'>About</h1>
+		<div class='container'>
+			<div class='row'>
+				<p class='col'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class='col'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</section>
+
+	<!--Gallery-->
+	<section class='container-fluid gallery'>
+		<h1 id='gallery-header'>Check my work</h1>
+		<div class='container'>
+			<div class='row'>
+				<div id='photo1' class='col img'><img src="img/nails-photo1.png" alt='Caption1'></div>
+				<div id='photo2' class='col img'><img src="img/nails20.jpg" alt='Caption2'></div>
+			</div>
+
+			<div class='row'>
+				<div id='photo3' class='col img'><img src="img/nails20.jpg" alt='Caption3'></div>
+				<div id='photo4' class='col img'><img src="img/nails-photo1.png" alt='Caption4'></div>
+			</div>
+		</div>
+				<!--Modal view-->
+				<div id='photo-modal' class='modal'>
+					<span class="close">&times;</span>
+					<div class='container'>
+					<div id="caption"></div>
+					<img class="modal-content mx-auto" id="img01">
+					</div>
+				</div>
+		<!-- background - Photo by Annie Spratt on Unsplash-->
+	</section>
+
+	<!--Separator section-->
+	<aside>
+		<div class='container'>
+			<h2>Nails are the mirror of the soul.. Or something like that.</h2>
+		</div>
+	</aside>
+
+	<!--Pricing -->
+	<section class='container-fluid pricing-background'>
+		<div class='container pricing-section'>
+			<h1 class='pricing-header'>Pricing</h1>
+			<table class='container'>
+				<tr>
+					<th>Manicure</th>	<th>Price</th>
+				</tr>
+				<tr class='ex'>
+					<td>Example</td>	<td>20$</td>
+				</tr>
+				<tr class='ex'>
+					<td>Example</td>	<td>20$</td>
+				</tr>
+				<tr class='ex'>
+					<td>Example</td>	<td>20$</td>
+				</tr>
+				<tr class='ex'>
+					<td>Example</td>	<td>20$</td>
+				</tr>
+				<tr class='ex'>
+					<td>Example</td>	<td>20$</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+
+	<!--Contact-->
+	<main class='container-fluid contact'>
+		<div class='container '>
+			<div class='row'>
+				<div class='col-6'>
+					<form>
+						<fieldset>
+							<legend>I'll contact you!</legend>
+							<div class='container'>
+								<p>Name*</p>
+								<input type="text" name="name" placeholder="Name" required="yes">
+							</div>
+							<div class='container'>
+								<p>E-mail*</p>
+								<input type="email" name="email" placeholder="e-mail" required="yes">
+							</div>
+							<div class='container'>
+								<p>Phone number</p>
+								<input id='ph-number' type="text" name="phonr-number" placeholder="number">
+							</div>
+							<div class='container '>
+								<button class='btn btn-lg'>Done!</button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			
+				<div class='col-6 contact-me'>
+					<div>
+						<h2>Let's contact me!</h2>
+					</div>
+					<div>
+						<p>myemail@example.com</p>
+						<p>My number: 123 456 789</p>
+					</div>
+					<div>
+						<a href="#" target="_blank"><i class='fa fa-facebook-square fa-4x'></i></a>
+						<a href="#" target="_blank"><i class='fa fa-google-plus fa-4x'></i></a>
+						<a href="#" target="_blank"><i class='fa fa-linkedin-square fa-4x'></i></a>
+						<a href="#" target="_blank"><i class='fa fa-twitter fa-4x'></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>&copy; copyright Michał Nowotarski 2018</footer>
+</body>
+</html>
